@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Tracker",
+  "version": "1.0",
+  "description": "Track which tabs are opened and at what time.",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "content.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
